@@ -1,8 +1,8 @@
-# LIBR_R_Theme
+# libRtheme
 
 ```r
 install.packages("devtools")
-devtools::install_github("kforthman/LIBR_R_Theme")
+devtools::install_github("kforthman/libRtheme")
 library(libRtheme)
 display.libr.all()
 ```
