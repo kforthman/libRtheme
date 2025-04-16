@@ -7,6 +7,8 @@ library(libRtheme)
 display.libr.all()
 ```
 
-enjoy!
+Logos can be found in eps, pdf, and png format in the folder 'logos'.
 
 ![Alt text](LIBR_Theme.png)
+
+![Alt text](logos/LIBR_full_color_logo.png)
