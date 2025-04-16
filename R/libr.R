@@ -88,10 +88,6 @@ create_palette_plot <- function(my_palette, my_palette_name, is_continuous = TRU
 #' @examples
 #' display.libr.all()
 #' @export
-display.libr.all <- function() {
-  # (your existing code here)
-}
-# Display the final stacked plot
 display.libr.all <- function(){
   p <- plot_spacer() / 
     create_palette_plot(libr_themes$colors[[1]], libr_themes$palette[1]) / 
@@ -111,6 +107,7 @@ display.libr.all <- function(){
     plot_spacer() / 
     create_palette_plot(libr_themes$colors[[8]], libr_themes$palette[8], is_continuous = F) / 
     create_palette_plot(libr_themes$colors[[10]], libr_themes$palette[10], is_continuous = F) / 
-    create_palette_plot(libr_themes$colors[[9]], libr_themes$palette[9], is_continuous = F)
+    create_palette_plot(libr_themes$colors[[9]], libr_themes$palette[9], is_continuous = F) /
+    plot_spacer()
   p
 }
