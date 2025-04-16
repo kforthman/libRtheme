@@ -3,7 +3,7 @@
 ```r
 install.packages("devtools")
 devtools::install_github("kforthman/LIBR_R_Theme")
-library(LIBR_R_Theme)
+library(libRtheme)
 display.libr.all()
 ```
 
