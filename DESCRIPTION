@@ -1,0 +1,22 @@
+Package: LIBR_R_Theme
+Type: Package
+Title: Color Palettes and Theme Tools for LIBR
+Version: 0.1.0
+Authors@R: 
+    c(
+      person("Katie", "Forthman", email = "kforthman@laureateinstitute.org", role = c("aut", "cre"))
+    )
+Description: Provides named color palettes for LIBR branding, plus a convenient display function.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports:
+    grDevices,
+    showtext,
+    ggplot2,
+    scales,
+    patchwork,
+    tidyverse,
+    sysfonts
+RoxygenNote: 7.3.2
