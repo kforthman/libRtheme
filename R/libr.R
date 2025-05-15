@@ -1,3 +1,7 @@
+if (getRversion() >= "2.15.1") {
+  utils::globalVariables(c("x", "color"))
+}
+
 libr_themes <- c(
   "LIBR_logo_sunset", list(c("#F4EB2A", "#F15C27")),
   "LIBR_logo_sky", list(c("#D6EEEF", "#1B4685")),

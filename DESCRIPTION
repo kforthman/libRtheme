@@ -1,7 +1,7 @@
 Package: libRtheme
 Type: Package
 Title: Color Palettes and Theme Tools for LIBR
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(
       person("Katie", "Forthman", email = "kforthman@laureateinstitute.org", role = c("aut", "cre"))
@@ -17,6 +17,8 @@ Imports:
     ggplot2,
     scales,
     patchwork,
-    tidyverse,
-    sysfonts
+    sysfonts,
+    dplyr,
+    magrittr,
+    tibble
 RoxygenNote: 7.3.2
